@@ -28,11 +28,12 @@
 
 ```
 src/
-├── 1_atoms/       # простейшие UI-элементы (Button, NavItem)
-├── 2_molecules/   # составные компоненты (Counter)
-├── 3_organisms/   # крупные блоки (Sidebar)
-├── 4_frames/      # layout'ы страниц (MainLayout)
-├── 5_pages/       # сами страницы
+├──components
+    ├── 1_atoms/       # простейшие UI-элементы (Button, NavItem)
+    ├── 2_molecules/   # составные компоненты (Counter)
+    ├── 3_organisms/   # крупные блоки (Sidebar)
+    ├── 4_frames/      # layout'ы страниц (MainLayout)
+    ├── 5_pages/       # сами страницы
 ├── routing/
 │   ├── paths.ts            # все URL как const-объект + тип AppPath
 │   ├── routes.config.tsx   # конфиг маршрутов (layout + список страниц)

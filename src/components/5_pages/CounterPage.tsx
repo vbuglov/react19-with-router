@@ -1,4 +1,4 @@
-import { Counter } from '@/2_molecules/Counter'
+import { Counter } from '@/components/2_molecules/Counter.tsx'
 
 export function CounterPage() {
   return (

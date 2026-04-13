@@ -1,5 +1,5 @@
-import { NavItem } from '@/1_atoms/NavItem'
-import { routesConfig } from '@/routing/routes.config'
+import { NavItem } from '@/components/1_atoms/NavItem.tsx'
+import { routesConfig } from '@/routing/routes.config.tsx'
 
 export function Sidebar() {
   return (

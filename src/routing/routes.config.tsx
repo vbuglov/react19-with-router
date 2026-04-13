@@ -1,9 +1,9 @@
 import type { ReactNode } from 'react'
-import { MainLayout } from '@/4_frames/MainLayout'
-import { CounterPage } from '@/5_pages/CounterPage'
-import { TablePage } from '@/5_pages/TablePage'
-import { ContactsPage } from '@/5_pages/ContactsPage'
-import { InstructionsPage } from '@/5_pages/InstructionsPage'
+import { MainLayout } from '@/components/4_frames/MainLayout'
+import { CounterPage } from '@/components/5_pages/CounterPage'
+import { TablePage } from '@/components/5_pages/TablePage'
+import { ContactsPage } from '@/components/5_pages/ContactsPage'
+import { InstructionsPage } from '@/components/5_pages/InstructionsPage'
 import { AppPath } from '@/routing/paths'
 
 export interface RouteConfig {

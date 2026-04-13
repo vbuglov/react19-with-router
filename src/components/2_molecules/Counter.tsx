@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button } from '@/1_atoms/Button'
+import { Button } from '@/components/1_atoms/Button.tsx'
 
 export function Counter() {
   const [count, setCount] = useState(0)
