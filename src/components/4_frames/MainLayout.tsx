@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import { Sidebar } from '@/3_organisms/Sidebar'
+import { Sidebar } from '@/components/3_organisms/Sidebar.tsx'
 
 export function MainLayout() {
   return (
